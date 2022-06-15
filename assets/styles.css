@@ -3,8 +3,21 @@ body {
     text-align: center;
   }
 
+h1{
+  color: #e75480;
+}
+
+h2 {
+  color: #e75480;
+}
 
 
 #member-list {
   list-style-type: none;
+  background-color: cornsilk;
+  color: #e75480;
+}
+
+form {
+  color: #e75480;
 }

@@ -12,7 +12,7 @@ memberForm.addEventListener('submit', async(ev)=> {
     //TODO you can add to the state and render
     fetchMembers();
     input.value = '';
-  }
+  } 
   catch(ex){
     console.log(ex.response.data);
   }
