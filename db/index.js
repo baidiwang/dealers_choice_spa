@@ -13,7 +13,6 @@ const Member = conn.define('member', {
     }
 });
 
-
 const syncAndSeed = async()=> {
   await conn.sync({ force: true });
   await Promise.all([

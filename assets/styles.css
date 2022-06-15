@@ -1,0 +1,10 @@
+body {
+    font-family: verdana;
+    text-align: center;
+  }
+
+
+
+#member-list {
+  list-style-type: none;
+}

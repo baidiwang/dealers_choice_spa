@@ -21,8 +21,8 @@ app.get('/api/members', async(req, res, next)=> {
 
 app.delete('/api/members/:id', async(req, res, next)=> {
   try {
-    const thing = await Member.findByPk(req.params.id);
-    await thing.destroy();
+    const member = await Member.findByPk(req.params.id);
+    await member.destroy();
     res.sendStatus(204);
   }
   catch(ex){
